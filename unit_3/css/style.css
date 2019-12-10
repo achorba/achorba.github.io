@@ -1,38 +1,37 @@
+
 body{
-}
-.header
-}
-background-color:blue;
-}
-h1{
-	text:white;
-	background-image:"images/newyear_hair.jpg";
+font-family:sans-serif, fonts,thonburi, arial;
+font-size: 12px;
+line-height: 1.5em;
 }
 
+.header{}
 
-.sale_banner
-{background-color:blue;
+
+.salebanner{
+background-color:#d8afff;
+color:white;
 }
 
 
 
-.hero_image
-{
-	color
+.hero_image{
+background-image:images:"newyear_hair.jpg";
 }
 
-.hero_image
-{background:blue;}
 
 
 
-.hairstyle_examples
+.hairstyle_examples{
+
+}
 
 
 
-.trends
-
-
+.trends{
+background-color:#9d9fa2;
+color:white;
+}
 
 .ask_a_stylist
 

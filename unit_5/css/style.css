@@ -1,0 +1,120 @@
+
+body{
+font-family: 'Overpass', sans-serif;
+font-size: 40px;
+font-kerning: .50px;
+text-align: center;}
+
+.category_headlines{
+text-transform: uppercase;
+font-size: 100px;
+text-align: center;
+}
+
+
+ul {list-style: none;}
+
+h3{font-size: 60px;}
+
+.logo{
+	text-align:left;
+	padding: 1em 0;
+}
+
+.message_one{
+font-size: 80px;
+font-family: 'Dancing Script', cursive;
+line-height: 2em;
+text-align: right;
+}
+.message_one2{
+font-size: 50px;
+font-family: 'Overpass', sans-serif;
+text-transform: uppercase;
+line-height: 2em;
+text-align: right;
+}
+
+.primarynav{float: center;
+background-color: #78797b;
+display: block;
+padding: 5px;
+}
+
+
+.message_two{
+border-top: 1px solid black;
+text-transform: uppercase;
+text-align: center;
+font-size: 20px;
+margin: 2em 0;
+}
+
+#salebanner{
+background-color: #d8afff;
+border-top: 3px solid white;
+border-bottom: 1px solid white;
+}
+
+.sales_headeline{
+color: white;
+font-size: 80px;
+text-align: center;
+}
+
+#hero_image{
+background-image: url("../images/newyear_hair.jpg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.newyear{
+font-size: 200px;
+color: white;
+font-family: 'Dancing Script', cursive;
+line-height: 1em;
+text-align: left;
+padding: 0 1em;	
+}
+
+.headline_ny{
+font-size: 100px;
+font-family: 'Overpass', sans-serif;
+line-height: 2em;
+text-align: right;
+}
+
+#hairstyle_examples{
+background-color:yellow;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+
+
+#trends{
+background-color:#9d9fa2;
+color:white;
+}
+
+.section_head2{
+text-transform: uppercase;;
+font-size: 60px;
+text-align: center;
+}
+
+
+.ask_a_stylist{
+background-image: url("../images/salonquestion_bkgd.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+#footer{background-color:red}
+
+.great_hair{font-size: 40px}

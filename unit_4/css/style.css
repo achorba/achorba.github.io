@@ -1,31 +1,55 @@
 
 body{
-font-family:sans-serif, fonts,thonburi, arial;
-font-size: 12px;
-line-height: 1.5em;
+font-family: thonburi, arial, sans-serif;
+font-size: 15px;
+font-kerning: .25px;}
+
+ul {list-style: none;}
+
+.logo{
+padding: 1em 0;
 }
 
-.header{}
+.message_one{
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+line-height: 2em
+text-align: right;
+padding: 1em 0;	
+}
 
+.primary_nav{
+dispaly:inline;
+}
+
+.message_two{
+bottom_border: 1px solid black;
+}
 
 .salebanner{
-background-color:#d8afff;
-color:white;
+background-color: #d8afff;
+color: white;
+text-align: center;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
 }
-
-
 
 .hero_image{
-background-image:images:"newyear_hair.jpg";
+background-image
 }
 
-
-
+.newyear{
+font-size: 100px;
+font-family: 'Dancing Script', cursive;
+line-height: 1em;
+text-align: left;
+padding: 0 2em;	
+}
 
 .hairstyle_examples{
-
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
 }
-
 
 
 .trends{
@@ -33,7 +57,14 @@ background-color:#9d9fa2;
 color:white;
 }
 
-.ask_a_stylist
+.springcolors{
+
+}
+
+
+.ask_a_stylist{
+
+}
 
 
 .footer

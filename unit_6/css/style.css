@@ -137,7 +137,6 @@ height: 800px;
 .womenhair{
 float: left;
 width: 50%;
-
 }
 
 .menhair{
@@ -146,7 +145,7 @@ width: 50%;
 }
 
 #trends{
-background-color:#9d9fa2;
+background-color: #9d9fa2;
 height:900px;
 color: white;
 }
@@ -163,8 +162,7 @@ width: 33%;
 
 .box3{
 float: left;
-width: 33%;
-}
+width: 33%;}
 
 .ask_a_stylist{
 background-image: url("../images/salonquestion_bkgd.jpg");

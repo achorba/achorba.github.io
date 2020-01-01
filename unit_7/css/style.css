@@ -1,0 +1,238 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+font-family: 'Overpass', sans-serif;
+font-size: 16px;
+}
+
+.clearfix:after {
+display: block;
+font-size: 0;
+content: "";
+clear: both;
+}
+
+.category_headlines{
+font-family: 'Overpass', sans-serif;
+text-transform: uppercase;
+font-size: 75px;
+text-align: center;
+}
+
+
+ul {list-style: none;}
+
+h3{font-size: 35px;}
+
+.container_header{
+height:500px;
+}
+
+.clickme{
+font-family: 'Overpass', sans-serif;
+text-transform: uppercase;
+font-size: 24px;
+}
+
+
+#logo{
+float: left;
+clear: left;
+padding: 75px 0 0 0;
+}
+
+.message_one{
+font-size: 75px;
+font-family:'Overpass', sans-serif;
+text-transform: uppercase;
+text-align: right;
+padding: 75px 25px 0 0;
+}
+.message_one2{
+font-size: 75px;
+font-family: 'Dancing Script', cursive;
+text-align: right;
+padding: 0 0 0 0;
+}
+
+.primary_nav a{
+font-size: 40px;
+display: inline-block;
+text-transform: uppercase;
+color: white;
+background-color: black;
+padding: 10px 25px 10px 25px;
+margin: 0 150px 10px 10px;
+text-decoration: none;
+float: center;
+}
+
+#booknownav{
+background-color: gray;
+color: white;
+display: inline-block;
+
+}
+
+.message_two{
+border-top: 1px solid black;
+text-transform: uppercase;
+text-align: center;
+font-size: 24px;
+padding: 25px 0 0 0;
+margin: 0 0 50px 0;
+}
+
+.salebanner{
+background-color: #d8afff;
+height: 150px;
+display: block;
+}
+
+.sales_headeline{
+color: white;
+font-size: 50px;
+text-align: center;
+padding: 25px 0 0 0;
+}
+
+.salebanner a{
+font-size: 24px;
+text-transform: uppercase;
+color: white;
+text-decoration: none;
+}
+
+
+#hero_image{
+background-image: url("../images/newyear_hair.jpg");
+display:block;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 1900px;
+}
+
+.newyear{
+font-size: 300px;
+color: white;
+font-family: 'Dancing Script', cursive;
+padding: 50px 0 150px 200px;
+transform: rotate(-5deg);	
+}
+
+.headline_ny{
+font-size: 65px;
+font-family: 'Overpass', sans-serif;
+color: white;
+text-transform: uppercase;
+padding: 0 0 0 200px;
+}
+
+#start_today{
+font-family: 'Overpass', sans-serif;
+font-size:40px;
+color: white;
+padding: 0 0 0 600px;
+text-decoration: none;
+background-color: #d8afff;
+height: 75px;
+}
+
+
+.hairstyle_examples{
+height: 800px;
+}
+
+.womenhair{
+float: left;
+clear: none;
+}
+
+.menhair{
+float: left;
+width: 50%;
+}
+
+.hairstyle_examples a{
+font-size: 24px;
+text-transform: uppercase;
+color: black;
+text-decoration: none;
+display: inline-block;
+}
+
+#trends{
+background-color: #9d9fa2;
+height:900px;
+color: white;
+}
+
+.box1{
+float: left;
+width: 33.3%;
+}
+
+.box2{
+float: left;
+width: 33.3%;
+}
+
+.box3{
+float: left;
+width: 33.3%;}
+
+.ask_a_stylist{
+background-image: url("../images/salonquestion_bkgd.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 1200px;
+}
+
+
+.whitebox{
+background: white;
+height: 40%;
+}
+
+
+.ask_stylist_header{
+font-family: 'Overpass', sans-serif;
+font-size: 75px;
+text-align:center;
+text-transform: uppercase;
+text-align: center;
+padding: 300px 0 25px 0;
+background: white;
+}
+
+
+
+.question{
+font-family: 'Overpass', sans-serif;
+font-size:40px;
+text-align:center;
+}
+
+.askme{
+font-family: 'Overpass', sans-serif;
+text-transform: uppercase;
+font-size: 24px;
+text-align:center;
+}
+
+
+.box_footer{
+float: left;
+width: 33.33%;
+padding: 50px;
+text-align: center;
+}
+
+.great_hair{
+font-size: 40px}

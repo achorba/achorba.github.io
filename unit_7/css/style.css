@@ -5,87 +5,88 @@
 }
 
 body{
-font-family: 'Overpass', sans-serif;
-font-size: 16px;
+	font-family: 'Overpass', sans-serif;
+	font-size: 16px;
 }
 
-.clearfix:after {
-display: block;
-font-size: 0;
-content: "";
-clear: both;
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
 }
 
 .category_headlines{
-font-family: 'Overpass', sans-serif;
-text-transform: uppercase;
-font-size: 75px;
-text-align: center;
+	font-family: 'Overpass', sans-serif;
+	text-transform: uppercase;
+	font-size: 75px;
+	text-align: center;
+	padding: 15px 0px 15px 10px;
 }
 
 
 ul {list-style: none;}
 
-h3{font-size: 35px;}
+h3{font-size: 30px;}
 
 .container_header{
-height:500px;
+	height:500px;
 }
 
-.clickme{
-font-family: 'Overpass', sans-serif;
-text-transform: uppercase;
-font-size: 24px;
-}
+	#logo{
+		float: left;
+		clear: left;
+		padding: 70px 0;
+	}
+
+	.message_one{
+		font-size: 75px;
+		font-family:'Overpass', sans-serif;
+		text-transform: uppercase;
+		text-align: right;
+		padding: 75px 30px 0 0;
+	}
+
+	.message_one2{
+		font-size: 75px;
+		font-family: 'Dancing Script', cursive;
+		text-align: right;
+		padding: 0 30px 0 0;
+	}
+
+	.primary_nav{
+		display: block;
+		padding: 0 0 25px 1000px;
+	}
+
+		.primary_nav a{
+			font-size: 40px;
+			display: inline-block;
+			text-transform: uppercase;
+			color: white;
+			background-color: black;
+			padding: 10px 25px 10px 25px;
+			margin: 0 150px 10px 10px;
+			text-decoration: none;
+			float: center;
+		}
+
+		#booknownav{
+			background-color: gray;
+			color: white;
+			display:inline-block;
+		}
+
+	.message_two{
+	border-top: 1px solid black;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	padding: 30px 0 0 0;
+	margin: 0 0 50px 0;
+	}
 
 
-#logo{
-float: left;
-clear: left;
-padding: 75px 0 0 0;
-}
-
-.message_one{
-font-size: 75px;
-font-family:'Overpass', sans-serif;
-text-transform: uppercase;
-text-align: right;
-padding: 75px 25px 0 0;
-}
-.message_one2{
-font-size: 75px;
-font-family: 'Dancing Script', cursive;
-text-align: right;
-padding: 0 0 0 0;
-}
-
-.primary_nav a{
-font-size: 40px;
-display: inline-block;
-text-transform: uppercase;
-color: white;
-background-color: black;
-padding: 10px 25px 10px 25px;
-margin: 0 150px 10px 10px;
-text-decoration: none;
-float: center;
-}
-
-#booknownav{
-background-color: gray;
-color: white;
-display: inline-block;
-
-}
-
-.message_two{
-border-top: 1px solid black;
-text-transform: uppercase;
-text-align: center;
-font-size: 24px;
-padding: 25px 0 0 0;
-margin: 0 0 50px 0;
-}
 
 .salebanner{
 background-color: #d8afff;
@@ -93,19 +94,23 @@ height: 150px;
 display: block;
 }
 
-.sales_headeline{
-color: white;
-font-size: 50px;
-text-align: center;
-padding: 25px 0 0 0;
-}
+	.sales_headeline{
+	color: white;
+	display: block;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px 0 10px 0;
+	}
 
-.salebanner a{
-font-size: 24px;
-text-transform: uppercase;
-color: white;
-text-decoration: none;
-}
+	.salebanner a{
+	font-size: 24px;
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	}
+
 
 
 #hero_image{
@@ -117,120 +122,206 @@ position: relative;
 height: 1900px;
 }
 
-.newyear{
-font-size: 300px;
-color: white;
-font-family: 'Dancing Script', cursive;
-padding: 50px 0 150px 200px;
-transform: rotate(-5deg);	
-}
+	.newyear{
+	font-size: 300px;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	padding: 50px 0 100px 200px;
+	transform: rotate(-5deg);	
+	}
 
-.headline_ny{
-font-size: 65px;
-font-family: 'Overpass', sans-serif;
-color: white;
-text-transform: uppercase;
-padding: 0 0 0 200px;
-}
+	.headline_ny{
+	display:block;
+	font-size: 65px;
+	font-family: 'Overpass', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	padding: 0 0 10px 200px;
+	margin: 0 0 0 20px;
+	}
 
-#start_today{
-font-family: 'Overpass', sans-serif;
-font-size:40px;
-color: white;
-padding: 0 0 0 600px;
-text-decoration: none;
-background-color: #d8afff;
-height: 75px;
-}
+	#hero_image a{
+	display: inline-block;
+	font-family: 'Overpass', sans-serif;
+	font-size: 30px;
+	color: white;
+	margin: 0 0 0 700px;
+	padding: 15px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #d8afff;
+	height: 75px;
+	}
 
 
 .hairstyle_examples{
-height: 800px;
+	display:block;
+	height: 1000px;
+	margin: 2em 2em;
 }
 
-.womenhair{
-float: left;
-clear: none;
-}
+	.womenhair{
+		float: left;
+		padding: 50px 25px 0 150px;
+	}
 
-.menhair{
-float: left;
-width: 50%;
+	.womenhair a{
+		font-family: 'Overpass', sans-serif;
+		text-transform: uppercase;
+		font-size: 24px;
+		text-align: center;
+		display:block;
+	}
+
+	.menhair{
+		float: left;
+		padding: 50px 0 0 150px;
+	}
+
+	.menhair a{
+		font-family: 'Overpass', sans-serif;
+		text-transform: uppercase;
+		font-size: 24px;
+		text-align: center;
+		display:block;
 }
 
 .hairstyle_examples a{
-font-size: 24px;
-text-transform: uppercase;
-color: black;
-text-decoration: none;
-display: inline-block;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
 }
 
 #trends{
-background-color: #9d9fa2;
-height:900px;
-color: white;
+	background-color: #9d9fa2;
+	height:1100px;
+	color: white;
+}
+
+.borderbox{
+	border: 1px black;
 }
 
 .box1{
-float: left;
-width: 33.3%;
+	float: left;
+	padding: 0 150px 25px 300px;
 }
 
+.trendsheadline{
+	text-align: center;
+	display:block;
+	background-color:white;
+	color:black;
+	height: 125px;
+	width: 495px;
+	padding: 1.5em;
+}
+
+.box1story{
+	display:block;
+	text-align:center;
+	width: 500px;
+	padding: 50px 0 0 0;
+}
+
+
 .box2{
-float: left;
-width: 33.3%;
+	float:left;
+	padding: 0 150px 25px 150px;
+}
+
+.accessoryheadline{
+	text-align: center;
+	display:block;
+	background-color:white;
+	color:black;
+	height: 125px;
+	width: 495px;
+	padding: 1.5em;
+}
+
+.box2story{
+	display:block;
+	text-align:center;
+	width: 500px;
+	padding: 50px 0 0 0;
 }
 
 .box3{
-float: left;
-width: 33.3%;}
+	float: left;
+	padding: 0 150px 25px 150px;
+}
+
+.lobheadline{
+	text-align:center;
+	display: block;
+	background-color:white;
+	color:black;
+	height: 125px;
+	width: 495px;
+	padding: 1.5em;
+}
+
+.box3story{
+	display:block;
+	text-align:center;
+	width: 500px;
+	padding: 50px 0 0 0;
+
+}
 
 .ask_a_stylist{
-background-image: url("../images/salonquestion_bkgd.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 1200px;
+	background-image: url("../images/salonquestion_bkgd.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1200px;
+	display:block;
+
 }
 
 
 .whitebox{
-background: white;
-height: 40%;
+	display: block;
+	background: white;
+	height: 40%;
+	padding: 200px 0 0 0;
+	margin: 200px 0 0 0;
 }
 
 
 .ask_stylist_header{
-font-family: 'Overpass', sans-serif;
-font-size: 75px;
-text-align:center;
-text-transform: uppercase;
-text-align: center;
-padding: 300px 0 25px 0;
-background: white;
+	font-family: 'Overpass', sans-serif;
+	font-size: 75px;
+	text-align:center;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 300px 0 25px 0;
+	background: white;
 }
 
 
 
 .question{
-font-family: 'Overpass', sans-serif;
-font-size:40px;
-text-align:center;
+	font-family: 'Overpass', sans-serif;
+	font-size:40px;
+	text-align:center;
 }
 
 .askme{
-font-family: 'Overpass', sans-serif;
-text-transform: uppercase;
-font-size: 24px;
-text-align:center;
+	font-family: 'Overpass', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align:center;
 }
 
 
 .box_footer{
-float: left;
-width: 33.33%;
-padding: 50px;
+	float: left;
+	width: 33.33%;
+	padding: 50px;
 text-align: center;
 }
 

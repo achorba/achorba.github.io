@@ -74,7 +74,7 @@ h3{
 }
 
 #booknownav{
-	background: gray;
+	background-color: gray;
 }
 
 .message_two{
@@ -87,7 +87,7 @@ h3{
 
 
 .salebanner{
-	background: #b277cb;
+	background-color: #b277cb;
 }
 
 .salebanner h3{
@@ -295,8 +295,10 @@ h3{
 
 
 
-@media screen and (max-width: 480px){
-	#logo{width:100%;}
+@media screen and (max-width:500px){
+	#logo{width:200%;
+		background-color: red;}
+
 }
  
 
